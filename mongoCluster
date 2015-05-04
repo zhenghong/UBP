@@ -1,0 +1,6 @@
+mongod –dbpath /data/mongodbtest/slave –slave -port 28118 –source localhost:28018
+
+mongod –dbpath /data/mongodbtest/slave –slave -port 28218 –source localhost:28018
+
+mongod –dbpath /data/mongodbtest/master –master -port 28018
+
